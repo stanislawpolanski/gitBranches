@@ -10,7 +10,9 @@ namespace gitBranches
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Engine e1 = new Engine(2000);
+
+            Console.WriteLine(e1.getCapacity());
             Console.ReadKey();
         }
     }
