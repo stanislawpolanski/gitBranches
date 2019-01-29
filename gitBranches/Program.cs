@@ -10,7 +10,9 @@ namespace gitBranches
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Car c1 = new Car("Ford");
+
+            Console.WriteLine(c1.getName());
             Console.ReadKey();
         }
     }
