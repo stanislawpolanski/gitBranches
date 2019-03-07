@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace gitBranches
 {
-    class Second
+    class Secondary
     {
         private String OLD = "ol";
     }
