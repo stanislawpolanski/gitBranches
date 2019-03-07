@@ -9,5 +9,6 @@ namespace gitBranches
     class First
     {
         private readonly String OLD_VALUE = "old";
+        private readonly String NEW_VALUE = "new";
     }
 }
